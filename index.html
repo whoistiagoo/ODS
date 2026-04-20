@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ODS 2 - Hambre Cero</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado con navegación -->
+    <header>
+        <nav>
+            <div class="logo">
+                <h2>🌾 ODS 2 | Hambre Cero</h2>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#inicio" class="active">Inicio</a></li>
+                <li><a href="#ods">ODS</a></li>
+                <li><a href="#equipo">Equipo</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sección Inicio -->
+        <section id="inicio" class="section">
+            <div class="hero">
+                <h1>Hambre Cero</h1>
+                <p>Poner fin al hambre, lograr la seguridad alimentaria y mejorar la nutrición</p>
+                <div class="meta-2030">
+                    <span>🎯 Meta 2030</span>
+                </div>
+            </div>
+            
+            <!-- MARQUESINA debajo del inicio -->
+            <div class="marquesina-container">
+                <div class="marquesina" id="marquesina">
+                    🌍 ¡Hambre Cero es posible! • 828 millones de personas pasan hambre en el mundo • ODS 2: Acabar con el hambre • Promover la agricultura sostenible • 📅 Meta para 2030 • 💚 ¡Tú puedes ayudar!
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección ODS con carrusel -->
+        <section id="ods" class="section">
+            <h2 class="section-title">📷 Conoce el ODS 2</h2>
+            
+            <div class="carrusel-container">
+                <div class="carrusel">
+                    <div class="slides" id="slides">
+                        <div class="slide">
+                            <img src="https://picsum.photos/id/104/800/450" alt="Hambre Cero 1">
+                            <div class="caption">🌾 Agricultura sostenible</div>
+                        </div>
+                        <div class="slide">
+                            <img src="https://picsum.photos/id/102/800/450" alt="Hambre Cero 2">
+                            <div class="caption">🍎 Alimentación nutritiva</div>
+                        </div>
+                        <div class="slide">
+                            <img src="https://picsum.photos/id/15/800/450" alt="Hambre Cero 3">
+                            <div class="caption">👨‍🌾 Apoyo a pequeños agricultores</div>
+                        </div>
+                        <div class="slide">
+                            <img src="https://picsum.photos/id/30/800/450" alt="Hambre Cero 4">
+                            <div class="caption">🌽 Cero desperdicio de alimentos</div>
+                        </div>
+                        <div class="slide">
+                            <img src="https://picsum.photos/id/13/800/450" alt="Hambre Cero 5">
+                            <div class="caption">🤝 Cooperación internacional</div>
+                        </div>
+                        <div class="slide">
+                            <img src="https://picsum.photos/id/29/800/450" alt="Hambre Cero 6">
+                            <div class="caption">💚 Hambre Cero para todos</div>
+                        </div>
+                    </div>
+
+                    <button class="btn prev" id="btnPrev">❮</button>
+                    <button class="btn next" id="btnNext">❯</button>
+                </div>
+
+                <div class="indicadores" id="indicadores"></div>
+                
+                <div class="controles-carrusel">
+                    <button class="control-btn" id="btnAutoPlay">⏸ Pausar</button>
+                    <span class="contador" id="contador">1 / 6</span>
+                </div>
+            </div>
+
+            <div class="ods-info">
+                <div class="info-card">
+                    <h3>🎯 Objetivo 2</h3>
+                    <p>Poner fin al hambre, lograr la seguridad alimentaria, mejorar la nutrición y promover la agricultura sostenible para 2030.</p>
+                </div>
+                <div class="info-card">
+                    <h3>📊 Datos clave</h3>
+                    <ul>
+                        <li>🌍 828 millones de personas pasan hambre</li>
+                        <li>🍽️ 3.1 mil millones no pueden costear una dieta saludable</li>
+                        <li>👶 149 millones de niños sufren retraso en el crecimiento</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Equipo (con nombres de compañeros) -->
+        <section id="equipo" class="section">
+            <h2 class="section-title">👥 Nuestro Equipo</h2>
+            <div class="equipo-grid">
+                <div class="miembro">
+                    <div class="avatar">👩‍🎓</div>
+                    <h3>Mayte Eileen</h3>
+                    <p>Investigadora</p>
+                </div>
+                <div class="miembro">
+                    <div class="avatar">🧑‍🎓</div>
+                    <h3>Santiago Acosta</h3>
+                    <p>Desarrollador</p>
+                </div>
+                <div class="miembro">
+                    <div class="avatar">👨‍🎓</div>
+                    <h3>Joshua Naim</h3>
+                    <p>Diseñador</p>
+                </div>
+                <div class="miembro">
+                    <div class="avatar">🧑‍🎓</div>
+                    <h3>Santiago Gybram</h3>
+                    <p>Líder del Proyecto</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>🌾 ODS 2 - Hambre Cero | Proyecto Escolar | 2025</p>
+        <p>Objetivo de Desarrollo Sostenible #2 | Agenda 2030</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
